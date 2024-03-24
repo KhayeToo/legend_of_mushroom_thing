@@ -2,7 +2,7 @@ from pydantic import BaseModel
 from typing import Optional
 
 class Skills(BaseModel):
-    DMG: int
+    DMG: float
     Slow: Optional[int] = None
     Increase_Basic_Attack: Optional[int] = None
     Imprison: Optional[int] = None
